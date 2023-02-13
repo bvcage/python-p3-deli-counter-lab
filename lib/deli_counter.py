@@ -7,8 +7,9 @@ def line(katz_deli):
             line.append(f"{n+1}. {katz_deli[n]}")
         print(*line)
 
-def take_a_number():
-    pass
+def take_a_number(katz_deli, name):
+    katz_deli.append(name)
+    print(f"Welcome, {name}. You are number {len(katz_deli)} in line.")
 
 def now_serving():
     pass
